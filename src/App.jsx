@@ -1,9 +1,11 @@
+import Header from './components/Header'
+import Footer from './components/Footer'
+
 function App() {
   return (
     <>
-      <div>
-        <h1>Trinidad Gaytan</h1>
-      </div>
+      <Header />
+      <Footer />
     </>
   )
 }

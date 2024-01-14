@@ -13,3 +13,6 @@ $gradient-bottom-right: linear-gradient(135deg, #ec926fff, #abc06cff, #f7dfc0ff)
 $gradient-top-left: linear-gradient(225deg, #ec926fff, #abc06cff, #f7dfc0ff);
 $gradient-bottom-left: linear-gradient(315deg, #ec926fff, #abc06cff, #f7dfc0ff);
 $gradient-radial: radial-gradient(#ec926fff, #abc06cff, #f7dfc0ff);
+
+Design for desktop displays from 1280×720 through 1920×1080. Design for mobile displays from 360×640 through 414×896.
+using iPhone 14 Pro Max in browser (430 x 932)
