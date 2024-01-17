@@ -1,7 +1,7 @@
 function Project({ name, repoURL, deployedURL, image}) {
     return (
         <>
-            <p>Project element</p>
+            <img src={name} className="img-fluid" alt="..."/>
         </>
     )
 }
