@@ -2,6 +2,7 @@ import Project from '../components/Project'
 import projects from '../projects'
 
 function Portfolio() {
+    console.log(projects)
     return (
         <>
             <div className="container text-center">
