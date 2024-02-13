@@ -40,8 +40,17 @@ a {
     text-decoration: none;
 }
 
-// customer css
+// custom css
 
 * {
     border: 1px solid;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+#about-body {
+    padding: 30px
 }

@@ -13,7 +13,7 @@ function Nav() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <Link to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'} aria-current="page" >About Me</Link>
+                        <Link to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'} aria-current="page" >About</Link>
                         <Link to="/Portfolio" className={currentPage === '/' ? 'nav-link active' : 'nav-link'} >Portfolio</Link>
                         <Link to="/Contact" className={currentPage === '/' ? 'nav-link active' : 'nav-link'} >Contact</Link>
                         <Link to="/Resume" className={currentPage === '/' ? 'nav-link active' : 'nav-link'} >Resume</Link>
