@@ -1,7 +1,7 @@
 function Project({ projects }) {
     return (
         <>
-            <img src={projects.image} className="img-fluid" alt="gympic"/>
+            <img src={projects.image} alt="gympic"/>
         </>
     )
 }
