@@ -2,30 +2,16 @@ import Project from '../components/Project'
 import projects from '../projects'
 
 function Portfolio() {
-    console.log(projects)
     return (
-        <>
+        <div id="portfolio-body">
                 {projects.map(project => {
                     return (
-                        <div key={project.name}>
+                        <div key={project.name} className="project-pic">
                             <Project projects={project} key={project.name}/>
                         </div>
                     )
                 })}    
-            {/* <div class="container text-center">
-                <div class="row">
-                    <div class="col">
-                    Column
-                    </div>
-                    <div class="col">
-                    Column
-                    </div>
-                    <div class="col">
-                    Column
-                    </div>
-                </div>
-            </div> */}
-        </>
+        </div>
     )
 }
 

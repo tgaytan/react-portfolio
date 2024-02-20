@@ -1,9 +1,13 @@
 function Project({ projects }) {
     return (
         <>
-            <img src={projects.image} alt="gympic"/>
+            <a href={projects.repoURL}>
+            <img src={projects.image} alt={projects.name}/>
+            </a>
         </>
     )
 }
 
 export default Project
+
+

@@ -75,3 +75,30 @@ img {
     border: 5px solid;
 }
 
+#portfolio-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-pic {
+    width: 50%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* need to add this or else a small blue border will appear behind the image*/
+.project-pic a {
+    border: none;
+}
+
+.project-pic img {
+    height: 215px;
+    width: 215px;
+    border: none;
+}
+
+.project-pic img:hover {
+    border: 5px solid #abc06cff;
+    opacity: .9;
+}
+
