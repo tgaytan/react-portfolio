@@ -75,7 +75,12 @@ img {
     border: 5px solid;
 }
 
-#portfolio-body {
+#portfolio-title {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#projects-body {
     display: flex;
     flex-wrap: wrap;
 }
@@ -94,7 +99,7 @@ img {
 .project-pic img {
     height: 215px;
     width: 215px;
-    border: none;
+    border: none; /* adding this to remove blue border */
 }
 
 .project-pic img:hover {
