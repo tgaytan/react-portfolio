@@ -29,9 +29,9 @@ pre, code {
 }
 
 /* Removes default bullet points from lists */
-ol, ul {
+/* ol, ul {
     list-style: none;
-}
+} */
 
 a {
     text-decoration: none;
@@ -39,9 +39,9 @@ a {
 
 /* custom css */
 
-* {
+/* * {
     border: 1px solid;
-}
+} */
 
 body {
     background-image: url(../images/TRINIDAD.JPG);
@@ -52,7 +52,7 @@ img {
     width: 250px;
 }
 
-#about-body {
+.page-body {
     padding: 30px
 }
 
@@ -70,9 +70,10 @@ img {
     border: 5px solid;
 }
 
-#about-text {
+.text {
     margin: 0.5rem 0;
     border: 5px solid;
+    width: fit-content;
 }
 
 #portfolio-title {
@@ -107,3 +108,10 @@ img {
     opacity: .9;
 }
 
+.page-body div {
+    margin: 10px 0;
+}
+
+li, h3, div h2 {
+    padding: 5px;
+}
