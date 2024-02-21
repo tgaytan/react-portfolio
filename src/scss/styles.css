@@ -115,3 +115,13 @@ img {
 li, h3, div h2 {
     padding: 5px;
 }
+
+span {
+    text-decoration: underline #abc06cff;
+    color: #abc06cff;
+    font-weight: bolder;
+}
+
+span:hover {
+    cursor: pointer;
+}

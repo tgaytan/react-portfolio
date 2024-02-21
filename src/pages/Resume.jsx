@@ -1,10 +1,19 @@
 function Resume() {
+    const onButtonClick = () => {
+        const resumeUrl = 'TrinidadResume2024.pdf'
+        const link = document.createElement('a')
+        link.href = resumeUrl
+        link.download = 'TRINIDADresume.pdf'
+        document.body.appendChild(link)
+        link.click()
+        document.body.removeChild(link)
+    }
     return (
         <>
             <div className="page-body">
                 <h1 className="text-background title">Resume</h1>
                 <div className="text-background text">
-                    <h2>Download my resume</h2>
+                    <h2>Download my <span onClick={onButtonClick}>resume</span></h2>
                 </div>
                 <div className="text-background text">
                     <h3>Skills</h3>
