@@ -39,9 +39,9 @@ a {
 
 /* custom css */
 
-* {
+/* * {
     border: 1px solid;
-}
+} */
 
 body {
     background-image: url(../images/TRINIDAD.JPG);
@@ -128,14 +128,19 @@ span:hover {
 
 nav {
     background-color: #abc06cff;
-}
-
-nav * {
-    padding: 10px;
+    display: flex;
 }
 
 .active-link {
     font-weight: bolder;
     border: 3px solid;
+    padding: 10px;
+    color: #f7dfc0ff;
+}
+
+.non-active-link {
+    padding: 10px;
+    color: #f7dfc0ff;
+    border: 3px solid #abc06cff;
 }
 

@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import About from './pages/About'
 import Portfolio from './pages/Portfolio'
-import Contact from './pages/Contact'
+// import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import './scss/styles.css'
 
@@ -21,10 +21,6 @@ const router = createBrowserRouter([
       {
         path: '/Portfolio',
         element: <Portfolio />
-      },
-      {
-        path: '/Contact',
-        element: <Contact />
       },
       {
         path: '/Resume',

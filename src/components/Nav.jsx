@@ -6,10 +6,10 @@ function Nav() {
     return (
         <>
             <nav>
-                <Link to="/" className="active-link" aria-current="page">About</Link>
-                <Link to="/Portfolio">Portfolio</Link>
-                <Link to="/Contact">Contact</Link>
-                <Link to="/Resume">Resume</Link>
+                <Link to="/" className={currentPage === '/' ? 'active-link' : 'non-active-link'} aria-current="page">About</Link>
+                <Link to="/Portfolio" className={currentPage === '/Portfolio' ? 'active-link' : 'non-active-link'}>Portfolio</Link>
+                {/* <Link to="/Contact" className={currentPage === '/Contact' ? 'active-link' : 'non-active-link'}>Contact</Link> */}
+                <Link to="/Resume" className={currentPage === '/Resume' ? 'active-link' : 'non-active-link'}>Resume</Link>
             </nav>
         </>
     )
