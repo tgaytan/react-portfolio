@@ -4,7 +4,7 @@ function Header() {
 
     return (
         <>
-            <h1>Trinidad Gaytan Header</h1>
+            <h1 id="my-name" className="text-background title">Trinidad Gaytan</h1>
             <Nav />
         </>
     )
